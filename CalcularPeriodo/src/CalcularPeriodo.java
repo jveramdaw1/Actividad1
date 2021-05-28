@@ -10,11 +10,13 @@ public class CalcularPeriodo {
 		LocalDate fecha = LocalDate.of(1492, Month.OCTOBER, 12);
 		LocalDate fecha1 = LocalDate.of(1914, Month.JULY, 28);
 		LocalDate fecha2 = LocalDate.of(1963, Month.NOVEMBER, 22);
+		LocalDate fecha3 = LocalDate.of(1963, Month.JANUARY, 21);
+		
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
 		calcularPeriodo("Primear guerra mundial", fecha1);
 		calcularPeriodo("Asesinato del presidente  John F. Kennedy", fecha2);
-		
+		calcularPeriodo("cUMPLEA�OS Jhon Vera", fecha3);
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
